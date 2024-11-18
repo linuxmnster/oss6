@@ -1,0 +1,27 @@
+ping
+Purpose: Tests the connectivity between your system and another device on the network.
+Usage:
+ping <hostname or IP>
+Example: ping google.com
+----------------------------------------------------------------------------------------
+ifconfig (or ip for newer systems)
+Purpose: Displays or configures the system’s network interfaces.
+Usage:
+ifconfig
+-----------------------------------------------------------------------------------------
+nslookup
+Purpose: Queries DNS to resolve domain names to IP addresses (or vice versa).
+Usage:
+nslookup <domain>
+-----------------------------------------------------------------------------------------
+df (Disk Free)
+Displays disk space usage for file systems.
+Common options:
+df -h: Shows human-readable output (e.g., sizes in GB, MB).
+-------------------------------------------------------------------------------------------
+du (Disk Usage)
+Displays the disk usage of files and directories.
+Common options:
+du -h: Human-readable output.
+du -sh: Shows a summary for a directory.
+-------------------------------------------------------------------------------------------

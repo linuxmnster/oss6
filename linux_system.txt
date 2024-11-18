@@ -1,0 +1,32 @@
+Hardware Layer: Includes physical components like the CPU, memory, storage devices, and input/output devices.
+
+Kernel Layer: The core part of Linux that manages resources. It handles:
+
+Process Management: Scheduling and executing processes.
+Memory Management: Allocating and managing system memory.
+Device Drivers: Interface between hardware and software.
+File System: Organizing data storage.
+Networking: Managing network communication.
+System Libraries: Precompiled functions (e.g., glibc) used by applications to interact with the kernel.
+
+System Utilities: Essential programs like shells (Bash), background services (daemons), and system commands (ls, ps).
+
+User Applications: Programs run by users, like browsers, text editors, and servers, which interact with the kernel through system calls.
+
+Block Diagram:
+diff
++------------------+  <- Hardware
++------------------+
+         |
+         v
++------------------+  <- Kernel
++------------------+
+         |
+         v
++------------------+  <- System Libraries & Utilities
++------------------+
+         |
+         v
++------------------+  <- User Applications
++------------------+
+This structure separates hardware management, core system functions, and user-level applications, ensuring efficiency and modularity in Linux.

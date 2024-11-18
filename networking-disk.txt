@@ -1,0 +1,49 @@
+### **1. Networking Commands**
+Here are 5 commonly used networking commands:
+
+1. **ping [hostname/IP]**  
+   - Tests connectivity to a host and measures response time.  
+     Example: `ping google.com`
+
+2. **ifconfig / ip addr**  
+   - Displays or configures network interface settings.  
+     Example: `ifconfig eth0` or `ip addr show`
+
+3. **netstat / ss**  
+   - Displays network connections, routing tables, and port usage.  
+     Example: `netstat -an` or `ss -tuln`
+
+4. **traceroute [hostname/IP]**  
+   - Shows the route packets take to a host.  
+     Example: `traceroute google.com`
+
+5. **curl / wget [URL]**  
+   - Retrieves data from a URL or tests APIs.  
+     Example: `curl https://example.com`
+
+---
+
+### **2. Disk Utilities**
+Here are 5 essential disk-related commands:
+
+1. **df -h**  
+   - Displays disk usage of all mounted filesystems in a human-readable format.  
+     Example: `df -h`
+
+2. **du -sh [directory/file]**  
+   - Shows the size of a directory or file.  
+     Example: `du -sh /home/user`
+
+3. **lsblk**  
+   - Lists information about block devices (disks and partitions).  
+     Example: `lsblk`
+
+4. **mount / umount [device] [directory]**  
+   - Mounts or unmounts a filesystem.  
+     Example: `mount /dev/sda1 /mnt`
+
+5. **fsck [device]**  
+   - Checks and repairs filesystem errors.  
+     Example: `fsck /dev/sda1`
+
+Let me know if you need further details or examples!
